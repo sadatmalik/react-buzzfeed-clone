@@ -1,123 +1,125 @@
 {
-  "quizId": "djfhdgh",
-  "title": "What cheese are you?",
-  "subtitle": "This quiz isn't cheesy or anything...",
-  "content": [
-    {
-      "id": 0,
-      "text": "Pick a vacation destination:",
-      "questions": [
-        {
-          "text": "New York",
-          "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
-          "alt": "Photo of the Empire State Building during day time",
-          "credit": "Melanie Dretvic"
-        },
-        {
-          "text": "Austin",
-          "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Time lapse photo of Austin skyline",
-          "credit": "Carlos Alfonso"
-        },
-        {
-          "text": "Portland",
-          "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Portland street scape downtown",
-          "credit": "Peter Bucks"
-        },
-        {
-          "text": "New Orleans",
-          "image": "https://images.unsplash.com/photo-1661735365500-aed60aeff97d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80",
-          "alt": "New Orleans steamboat",
-          "credit": "Yuhan Du"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "text": "Pick some food",
-      "questions": [
-        {
-          "text": "Pizza",
-          "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
-          "alt": "Photo of the Empire State Building during day time",
-          "credit": "Melanie Dretvic"
-        },
-        {
-          "text": "Sandwich",
-          "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Time lapse photo of Austin skyline",
-          "credit": "Carlos Alfonso"
-        },
-        {
-          "text": "Pasta",
-          "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Portland street scape downtown",
-          "credit": "Peter Bucks"
-        },
-        {
-          "text": "Hamburger",
-          "image": "https://images.unsplash.com/photo-1659316331636-e76a236f8fe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
-          "alt": "New Orleans downtown crowded street",
-          "credit": "Aric Cheng"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Pick a home",
-      "questions": [
-        {
-          "text": "Traditional",
-          "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
-          "alt": "Photo of the Empire State Building during day time",
-          "credit": "Melanie Dretvic"
-        },
-        {
-          "text": "Modern",
-          "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Time lapse photo of Austin skyline",
-          "credit": "Carlos Alfonso"
-        },
-        {
-          "text": "House",
-          "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-          "alt": "Portland street scape downtown",
-          "credit": "Peter Bucks"
-        },
-        {
-          "text": "Mountains",
-          "image": "https://images.unsplash.com/photo-1659316331636-e76a236f8fe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
-          "alt": "New Orleans downtown crowded street",
-          "credit": "Aric Cheng"
-        }
-      ]
-    }
-  ],
-  "answers": [
-    {
-      "combination": ["New York", "Pizza", "Traditional"],
-      "text": "Blue Cheese",
-      "image": "https://images.unsplash.com/photo-1626957341926-98752fc2ba90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-      "alt": "Blue cheese"
-    },
-    {
-      "combination": ["Austin", "Pasta", "Modern"],
-      "text": "Cheddar",
-      "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80",
-      "alt": "Cheddar cheese"
-    },
-    {
-      "combination": ["Portland", "Sandwich", "Mountains"],
-      "text": "Feta",
-      "image": "",
-      "alt": "Feta cheese"
-    },
-    {
-      "combination": ["New Orleans", "Hamburger", "House"],
-      "text": "Halloumi",
-      "image": "",
-      "alt": "Halloumi cheese"
-    }
-  ]
+  "quiz": {
+    "quizId": "djfhdgh",
+    "title": "What cheese are you?",
+    "subtitle": "This quiz isn't cheesy or anything...",
+    "content": [
+      {
+        "id": 0,
+        "text": "Pick a vacation destination:",
+        "questions": [
+          {
+            "text": "New York",
+            "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
+            "alt": "Photo of the Empire State Building during day time",
+            "credit": "Melanie Dretvic"
+          },
+          {
+            "text": "Austin",
+            "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Time lapse photo of Austin skyline",
+            "credit": "Carlos Alfonso"
+          },
+          {
+            "text": "Portland",
+            "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Portland street scape downtown",
+            "credit": "Peter Bucks"
+          },
+          {
+            "text": "New Orleans",
+            "image": "https://images.unsplash.com/photo-1661735365500-aed60aeff97d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80",
+            "alt": "New Orleans steamboat",
+            "credit": "Yuhan Du"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Pick some food",
+        "questions": [
+          {
+            "text": "Pizza",
+            "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
+            "alt": "Photo of the Empire State Building during day time",
+            "credit": "Melanie Dretvic"
+          },
+          {
+            "text": "Sandwich",
+            "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Time lapse photo of Austin skyline",
+            "credit": "Carlos Alfonso"
+          },
+          {
+            "text": "Pasta",
+            "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Portland street scape downtown",
+            "credit": "Peter Bucks"
+          },
+          {
+            "text": "Hamburger",
+            "image": "https://images.unsplash.com/photo-1659316331636-e76a236f8fe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
+            "alt": "New Orleans downtown crowded street",
+            "credit": "Aric Cheng"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Pick a home",
+        "questions": [
+          {
+            "text": "Traditional",
+            "image": "https://images.unsplash.com/photo-1528449995200-88f6f5734325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
+            "alt": "Photo of the Empire State Building during day time",
+            "credit": "Melanie Dretvic"
+          },
+          {
+            "text": "Modern",
+            "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Time lapse photo of Austin skyline",
+            "credit": "Carlos Alfonso"
+          },
+          {
+            "text": "House",
+            "image": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "alt": "Portland street scape downtown",
+            "credit": "Peter Bucks"
+          },
+          {
+            "text": "Mountains",
+            "image": "https://images.unsplash.com/photo-1659316331636-e76a236f8fe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
+            "alt": "New Orleans downtown crowded street",
+            "credit": "Aric Cheng"
+          }
+        ]
+      }
+    ],
+    "answers": [
+      {
+        "combination": ["New York", "Pizza", "Traditional"],
+        "text": "Blue Cheese",
+        "image": "https://images.unsplash.com/photo-1626957341926-98752fc2ba90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        "alt": "Blue cheese"
+      },
+      {
+        "combination": ["Austin", "Pasta", "Modern"],
+        "text": "Cheddar",
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80",
+        "alt": "Cheddar cheese"
+      },
+      {
+        "combination": ["Portland", "Sandwich", "Mountains"],
+        "text": "Feta",
+        "image": "",
+        "alt": "Feta cheese"
+      },
+      {
+        "combination": ["New Orleans", "Hamburger", "House"],
+        "text": "Halloumi",
+        "image": "",
+        "alt": "Halloumi cheese"
+      }
+    ]
+  }
 }
