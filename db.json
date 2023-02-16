@@ -93,5 +93,31 @@
         }
       ]
     }
+  ],
+  "answers": [
+    {
+      "combination": ["New York", "Pizza", "Traditional"],
+      "text": "Blue Cheese",
+      "image": "https://images.unsplash.com/photo-1626957341926-98752fc2ba90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "alt": "Blue cheese"
+    },
+    {
+      "combination": ["Austin", "Pasta", "Modern"],
+      "text": "Cheddar",
+      "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80",
+      "alt": "Cheddar cheese"
+    },
+    {
+      "combination": ["Portland", "Sandwich", "Mountains"],
+      "text": "Feta",
+      "image": "",
+      "alt": "Feta cheese"
+    },
+    {
+      "combination": ["New Orleans", "Hamburger", "House"],
+      "text": "Halloumi",
+      "image": "",
+      "alt": "Halloumi cheese"
+    }
   ]
 }
