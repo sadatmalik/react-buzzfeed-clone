@@ -25,6 +25,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 10px;
+}
+
 p {
     font-size: 1.125rem;
     line-height: 1.2;
@@ -46,4 +50,31 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 16px 0 23px 0;
+}
+
+.question-block {
+    width: 286px;
+    height: auto;
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: rgba(0,0,0,0.07) 0 0 0 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: none;
+}
+
+.question-block img {
+    width: 100%;
+}
+
+.question-block p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.question-block a {
+    color: rgb(153,153,153);
+    text-decoration: none;
 }
