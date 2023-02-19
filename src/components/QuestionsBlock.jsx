@@ -1,6 +1,6 @@
 import QuestionBlock from './QuestionBlock'
 
-const QuestionsBlock = ({ quizItem }) => {
+const QuestionsBlock = ({ quizItem, setChosenAnswerItems }) => {
 
     return (
         <>
@@ -10,6 +10,7 @@ const QuestionsBlock = ({ quizItem }) => {
                     <QuestionBlock
                         key={_index}
                         question={question}
+                        setChosenAnswerItems={setChosenAnswerItems}
                     />
                 ))}
             </div>
