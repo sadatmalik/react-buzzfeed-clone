@@ -7,7 +7,7 @@ const App = () => {
 
     const [quiz, setQuiz] = useState(null)
     const [chosenAnswerItems, setChosenAnswerItems] = useState([])
-    const [unansweredQuestionIds, setUnansweredQuestionIds] = useState([])
+    const [unansweredQuestionIds, setUnansweredQuestionIds] = useState(null)
 
     const fetchData = async () => {
         try {
@@ -27,6 +27,18 @@ const App = () => {
         const unansweredIds = quiz?.content.map(({ id }) => id)
         setUnansweredQuestionIds(unansweredIds)
     }, [quiz])
+
+    useEffect(() => {
+        if (unansweredQuestionIds) {
+            if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
+                // scroll to answer block
+            }
+            // scroll to highest unanswered question id
+            const highestId = Math.min(...unansweredQuestionIds)
+            const highestElement = document.getElementById(highestId)
+            highestElement?.scrollIntoView({ behavior: "smooth"})
+        }
+    }, [unansweredQuestionIds, chosenAnswerItems])
 
     console.log(quiz)
 
