@@ -1,6 +1,11 @@
 import QuestionBlock from './QuestionBlock'
 
-const QuestionsBlock = ({ quizItem, setChosenAnswerItems }) => {
+const QuestionsBlock = ({ quizItem,
+                            setChosenAnswerItems,
+                            chosenAnswerItems,
+                            unansweredQuestionIds,
+                            setUnansweredQuestionIds
+}) => {
 
     return (
         <>
@@ -9,8 +14,12 @@ const QuestionsBlock = ({ quizItem, setChosenAnswerItems }) => {
                 {quizItem.questions.map((question, _index) => (
                     <QuestionBlock
                         key={_index}
+                        quizItemId={quizItem.id}
                         question={question}
                         setChosenAnswerItems={setChosenAnswerItems}
+                        chosenAnswerItems={chosenAnswerItems}
+                        unansweredQuestionIds={unansweredQuestionIds}
+                        setUnansweredQuestionIds={setUnansweredQuestionIds}
                     />
                 ))}
             </div>

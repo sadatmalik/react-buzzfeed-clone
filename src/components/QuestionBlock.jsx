@@ -1,13 +1,22 @@
-const QuestionBlock = ({ question, setChosenAnswerItems }) => {
+const QuestionBlock = ({
+                           question,
+                           quizItemId,
+                           setChosenAnswerItems,
+                           chosenAnswerItems,
+                           unansweredQuestionIds,
+                           setUnansweredQuestionIds
+}) => {
 
     const handleClick = () => {
         setChosenAnswerItems((prevState) => [...prevState, question.text])
+        setUnansweredQuestionIds(unansweredQuestionIds.filter((id) => id !== quizItemId))
     }
 
     return (
         <button
             className="question-block"
             onClick={handleClick}
+            // disabled={!chosenAnswerItems.include(question.text)}
         >
             <img src={question.image} alt={question.alt}/>
             <h3>{question.text}</h3>

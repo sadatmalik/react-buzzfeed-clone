@@ -7,6 +7,7 @@ const App = () => {
 
     const [quiz, setQuiz] = useState(null)
     const [chosenAnswerItems, setChosenAnswerItems] = useState([])
+    const [unansweredQuestionIds, setUnansweredQuestionIds] = useState([])
 
     const fetchData = async () => {
         try {
@@ -22,9 +23,16 @@ const App = () => {
         fetchData()
     }, [])
 
+    useEffect(() => {
+        const unansweredIds = quiz?.content.map(({ id }) => id)
+        setUnansweredQuestionIds(unansweredIds)
+    }, [quiz])
+
     console.log(quiz)
 
     console.log(chosenAnswerItems)
+
+    console.log(unansweredQuestionIds)
 
   return (
     <div className="app">
@@ -34,6 +42,9 @@ const App = () => {
                 key={contentItem.id}
                 quizItem={contentItem}
                 setChosenAnswerItems={setChosenAnswerItems}
+                chosenAnswerItems={chosenAnswerItems}
+                setUnansweredQuestionIds={setUnansweredQuestionIds}
+                unansweredQuestionIds={unansweredQuestionIds}
             />
         ))}
     </div>
