@@ -33,7 +33,7 @@ const App = () => {
             if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
                 // scroll to answer block
             }
-            // scroll to highest unanswered question id
+            // scroll to the highest unanswered question id
             const highestId = Math.min(...unansweredQuestionIds)
             const highestElement = document.getElementById(highestId)
             highestElement?.scrollIntoView({ behavior: "smooth"})
