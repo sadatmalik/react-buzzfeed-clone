@@ -2,12 +2,14 @@ import { useState, useEffect } from 'react'
 
 import Title from './components/Title'
 import QuestionsBlock from './components/QuestionsBlock'
+import AnswerBlock from "./components/AnswerBlock";
 
 const App = () => {
 
     const [quiz, setQuiz] = useState(null)
     const [chosenAnswerItems, setChosenAnswerItems] = useState([])
     const [unansweredQuestionIds, setUnansweredQuestionIds] = useState(null)
+    const [showAnswer, setShowAnswer] = useState(false)
 
     const fetchData = async () => {
         try {
@@ -32,6 +34,7 @@ const App = () => {
         if (unansweredQuestionIds) {
             if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
                 // scroll to answer block
+                setShowAnswer(true)
             }
             // scroll to the highest unanswered question id
             const highestId = Math.min(...unansweredQuestionIds)
@@ -59,6 +62,12 @@ const App = () => {
                 unansweredQuestionIds={unansweredQuestionIds}
             />
         ))}
+        { showAnswer && (
+            <AnswerBlock
+                answerOptions={quiz?.answers}
+                chosenAnswers={chosenAnswerItems}
+            />
+        )}
     </div>
   );
 }
